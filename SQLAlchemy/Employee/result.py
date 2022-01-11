@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from models import Base, Departament, Bonus, Angajat
 
 CONNECTION_STRING = 'mysql+pymysql://{user}:{password}@{host}/{db}'
-eng = create_engine(CONNECTION_STRING.format(user='root', password='Frectie!234', host='localhost', db='employee_db'))
+eng = create_engine(CONNECTION_STRING.format(user='root', password='xxxxxx', host='localhost', db='employee_db'))
 # acest creat realizeaza o conexiune catre baza de date(students_db)
 
 # creeaza tabelele in baza noastra de date
